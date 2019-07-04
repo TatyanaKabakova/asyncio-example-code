@@ -1,0 +1,23 @@
+$ python d_produce-consume-product.py -p 2 -c 5
+Producer 0 sleeping for 3 seconds.
+Producer 1 sleeping for 3 seconds.
+Consumer 0 sleeping for 4 seconds.
+Consumer 1 sleeping for 3 seconds.
+Consumer 2 sleeping for 3 seconds.
+Consumer 3 sleeping for 5 seconds.
+Consumer 4 sleeping for 4 seconds.
+Producer 0 added <377b1e8f82> to queue.
+Producer 0 sleeping for 5 seconds.
+Producer 1 added <413b8802f8> to queue.
+Consumer 1 got element <377b1e8f82> in 0.00013 seconds.
+Consumer 1 sleeping for 3 seconds.
+Consumer 2 got element <413b8802f8> in 0.00009 seconds.
+Consumer 2 sleeping for 4 seconds.
+Producer 0 added <06c055b3ab> to queue.
+Producer 0 sleeping for 1 seconds.
+Consumer 0 got element <06c055b3ab> in 0.00021 seconds.
+Consumer 0 sleeping for 4 seconds.
+Producer 0 added <17a8613276> to queue.
+Consumer 4 got element <17a8613276> in 0.00022 seconds.
+Consumer 4 sleeping for 5 seconds.
+Program completed in 9.00954 seconds.

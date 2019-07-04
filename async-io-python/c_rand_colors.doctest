@@ -1,0 +1,25 @@
+Initiated makerandom(0).
+makerandom(0) == 4 too low; retrying.
+Initiated makerandom(1).
+makerandom(1) == 4 too low; retrying.
+Initiated makerandom(2).
+makerandom(2) == 0 too low; retrying.
+makerandom(0) == 4 too low; retrying.
+makerandom(1) == 7 too low; retrying.
+makerandom(0) == 4 too low; retrying.
+makerandom(2) == 4 too low; retrying.
+makerandom(0) == 8 too low; retrying.
+---> Finished: makerandom(1) == 10
+makerandom(0) == 7 too low; retrying.
+makerandom(0) == 8 too low; retrying.
+makerandom(2) == 4 too low; retrying.
+makerandom(0) == 7 too low; retrying.
+makerandom(0) == 1 too low; retrying.
+makerandom(0) == 6 too low; retrying.
+---> Finished: makerandom(2) == 9
+makerandom(0) == 3 too low; retrying.
+makerandom(0) == 9 too low; retrying.
+makerandom(0) == 7 too low; retrying.
+---> Finished: makerandom(0) == 10
+
+r1: 10, r2: 10, r3: 9

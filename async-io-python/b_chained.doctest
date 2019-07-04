@@ -1,0 +1,17 @@
+$ python b_chained.py 9 6 3
+part1(9) sleeping for 4 seconds.
+part1(6) sleeping for 4 seconds.
+part1(3) sleeping for 0 seconds.
+Returning part1(3) == result3-1.
+part2(3, 'result3-1') sleeping for 4 seconds.
+Returning part1(9) == result9-1.
+part2(9, 'result9-1') sleeping for 7 seconds.
+Returning part1(6) == result6-1.
+part2(6, 'result6-1') sleeping for 4 seconds.
+Returning part2(3, 'result3-1') == result3-2 derived from result3-1.
+-->Chained result3 => result3-2 derived from result3-1 (took 4.00 seconds).
+Returning part2(6, 'result6-1') == result6-2 derived from result6-1.
+-->Chained result6 => result6-2 derived from result6-1 (took 8.01 seconds).
+Returning part2(9, 'result9-1') == result9-2 derived from result9-1.
+-->Chained result9 => result9-2 derived from result9-1 (took 11.01 seconds).
+Program finished in 11.01 seconds.
