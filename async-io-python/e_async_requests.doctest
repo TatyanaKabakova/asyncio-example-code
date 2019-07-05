@@ -1,0 +1,31 @@
+$ python e_async_requests.py
+14:45:11 DEBUG: asyncio: Using selector: KqueueSelector
+14:45:12 INFO: async_requests: Got response [200] for URL: https://1.1.1.1/
+14:45:12 INFO: async_requests: Found 14 links for https://1.1.1.1/
+14:45:12 INFO: async_requests: Got response [200] for URL: https://www.ietf.org/rfc/rfc2616.txt
+14:45:12 INFO: async_requests: Found 0 links for https://www.ietf.org/rfc/rfc2616.txt
+14:45:12 INFO: async_requests: Wrote results for source URL: https://1.1.1.1/
+14:45:12 ERROR: async_requests: aiohttp exception for https://docs.python.org/3/this-url-will-404.html [404]: Not Found
+14:45:12 INFO: async_requests: Got response [200] for URL: https://regex101.com/
+14:45:12 INFO: async_requests: Found 23 links for https://regex101.com/
+14:45:12 INFO: async_requests: Wrote results for source URL: https://regex101.com/
+14:45:12 INFO: async_requests: Got response [200] for URL: https://www.nytimes.com/guides/
+14:45:12 INFO: async_requests: Found 120 links for https://www.nytimes.com/guides/
+14:45:12 INFO: async_requests: Wrote results for source URL: https://www.nytimes.com/guides/
+14:45:12 INFO: async_requests: Got response [200] for URL: https://www.mediamatters.org/
+14:45:12 INFO: async_requests: Found 110 links for https://www.mediamatters.org/
+14:45:12 INFO: async_requests: Wrote results for source URL: https://www.mediamatters.org/
+14:45:12 INFO: async_requests: Got response [200] for URL: https://www.bloomberg.com/markets/economics
+14:45:12 INFO: async_requests: Found 3 links for https://www.bloomberg.com/markets/economics
+14:45:12 INFO: async_requests: Wrote results for source URL: https://www.bloomberg.com/markets/economics
+14:45:13 INFO: async_requests: Got response [200] for URL: https://www.politico.com/tipsheets/morning-money
+14:45:13 INFO: async_requests: Found 139 links for https://www.politico.com/tipsheets/morning-money
+14:45:13 INFO: async_requests: Wrote results for source URL: https://www.politico.com/tipsheets/morning-money
+
+$ wc -l foundurls.txt
+     626 foundurls.txt
+
+$ head -n 3 foundurls.txt
+source_url  parsed_url
+https://www.bloomberg.com/markets/economics https://www.bloomberg.com/feedback
+https://www.bloomberg.com/markets/economics https://www.bloomberg.com/notices/tos

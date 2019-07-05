@@ -1,0 +1,7 @@
+$ python d_io_multiprocessing.py
+ForkPoolWorker-1:Read 19210 from https://www.jython.org
+ForkPoolWorker-4:Read 19210 from https://www.jython.org
+ForkPoolWorker-1:Read 273 from http://olympus.realpython.org/dice
+ForkPoolWorker-4:Read 273 from http://olympus.realpython.org/dice
+    [most output skipped]
+Downloaded 160 in 6.985152959823608 seconds

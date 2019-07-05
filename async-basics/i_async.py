@@ -58,7 +58,11 @@ async def main2():
     file_url = 'https://loremflickr.com/cache/resized/2720_4097907932_eb208f3042_n_320_240_nofilter.jpg'
     tasks = []
 
+    # one session for all requests in original
+    # async with aiohttp.ClientSession() as session:
+    #     for i in range(10): ...
     for i in range(10):
+        # task = asyncio.create_task(fetch_content(file_url, session, i))
         task = fetch_content(file_url, i)
         tasks.append(task)
 

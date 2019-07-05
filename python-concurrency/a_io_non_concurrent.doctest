@@ -1,0 +1,7 @@
+$ python a_io_non_concurrent.py
+Read 19210 from https://www.jython.org
+Read 273 from http://olympus.realpython.org/dice
+Read 19210 from https://www.jython.org
+Read 273 from http://olympus.realpython.org/dice
+   [most output skipped]
+Downloaded 160 in 14.289619207382202 seconds

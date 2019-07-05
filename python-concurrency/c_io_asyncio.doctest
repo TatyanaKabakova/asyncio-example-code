@@ -1,0 +1,6 @@
+$ python c_io_asyncio.py
+Read 273 from http://olympus.realpython.org/dice
+Read 19210 from https://www.jython.org
+Read 19210 from https://www.jython.org
+   [most output skipped]
+Downloaded 160 sites in 1.734112024307251 seconds
